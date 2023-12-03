@@ -30,7 +30,7 @@ class FirstPage extends StatelessWidget {
           padding: EdgeInsets.all(20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
+            children:[
               TextFormField(
                 controller: myController,
                 decoration: InputDecoration(
